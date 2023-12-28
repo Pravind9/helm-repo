@@ -1,14 +1,32 @@
 apiVersion: v1
 entries:
-  testchart:
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2023-12-18T14:10:07.310710965+05:30"
-    description: A Helm chart for Kubernetes
-    digest: d180a68ff39b5cd71929c633ef1e9cac5aca70706dd6d1d61f4b4f5862c6de8e
-    name: testchart
-    type: application
+  generic-chart:
+  - annotations:
+      category: Infrastructure
+      licenses: Zyra IT System
+    apiVersion: v2
+    appVersion: 1.0.0
+    created: "2023-12-28T11:28:37.690407602+05:30"
+    description: A Library Helm Chart for grouping generic logic between all charts.
+      This chart is not deployable by itself.
+    digest: 68e37b11e7c89bd76bb75ec7c8f1f8d2142936cac04288337b9f066d8e296201
+    home: https://zyrasystem.com
+    icon: https://zyrasystem.com/downloads/logos/bitnami-mark.png
+    keywords:
+    - common
+    - Generic
+    - helper
+    - template
+    - function
+    - Zyra
+    maintainers:
+    - name: Zyra IT System.
+      url: https://zyrasystem.com/charts
+    name: generic-chart
+    sources:
+    - https://zyrasystem.com/charts
+    type: library
     urls:
-    - testchart-0.1.0.tgz
-    version: 0.1.0
-generated: "2023-12-18T14:10:07.30837558+05:30"
+    - generic-chart-1.0.0.tgz
+    version: 1.0.0
+generated: "2023-12-28T11:28:37.687752859+05:30"
